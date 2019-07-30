@@ -1,6 +1,6 @@
 # Importando os modelos das tabelas usadas pelo ORM
-from .entities.entity import Session, engine, Base
-from .entities.resume import Resume, ResumeSchema
+from entities.entity import Session, engine, Base
+from entities.resume import Resume, ResumeSchema
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import sys
